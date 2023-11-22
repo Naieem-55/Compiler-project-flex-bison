@@ -1,0 +1,43 @@
+library added
+Function declared with return type : INTERGER
+Parameter nInt: x
+Parameter nChar: y
+Parameter nFloat: z
+1 + 2 : 
+
+value of expression: 3
+func save xyz
+0 func output 3
+Function name : xyz
+library added
+
+valid declaration
+Array declaration Successful
+Printing table
+0 xyz
+1 aa
+2 bb
+3 cc
+4 dd
+5 array1
+total size of array1 is 10 
+
+value of expression: 6
+xyz Fuction called
+output of fuction : 3
+2 ^ 3 : 
+
+value of expression: 8
+2 AND 3 : 
+
+value of expression: 1
+2 OR 3 : 
+
+value of expression: 1
+1 XOR 2 : 
+
+value of expression: 3
+5 + 2 : 
+
+value of expression: 7
+syntax error

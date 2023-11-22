@@ -1,0 +1,76 @@
+#get*<abc>
+def->nInt xyz [ nInt x , nChar y , nFloat z ] {	1 | 2 ; }
+start() [ ]
+{
+	#get*<abc>
+	nInt aa = 2 , bb = 5 , cc , dd ;
+	Arr [ nInt ] [ 10 ] array1 ;
+	SZ_OF array1 ;
+	array1 [ 0 ] = 6 ;
+	array1 [ 0 ] ;
+	call_koro xyz [ 2 , 3 , 5 ] ;
+	2 ^ 3 ;
+	2 AND 3 ;
+	2 OR 3 ;
+	1 XOR 2 ;
+	bb | 2 ;
+	cc = nWhile [ 0 GT 5 ] nEndWhile { 4 | 2 } ;
+
+	dd = cc | bb ;
+	dd ;
+	50 ~ 15 | 8 % 2 # 5 ;
+	3 % 0 ;
+
+	nIf [ bb nGT cc ]
+		{
+			12 | 2 ;
+		}
+	
+	10 || ;
+
+	nIf [ 5 | 8 ]
+		{
+			2 ^ 2 ;
+
+		}
+
+	1 | 12 % 4 # 4 ;
+
+	nIf [ 7 nLT 5 ]
+		{
+		
+			aa = 7 | 6 # 2 ;
+		}
+	nElse
+		{
+			aa = 6 | 8 % 4 ;
+		}
+
+	aa | 2 ;
+
+	nElif [ 7 nGT 5 ]
+		{
+			nIf [ 7 nLT 5 ]
+			{
+				7 | 7 | 6 ;
+			}
+			nElse
+			{
+				3 | 8 % 4 ;
+			}
+		}
+	nElse
+		{
+			6 # 3 ~ 1 ;
+		}
+		
+	nFor [ 2 : 6 ] nEndFor { 4 | 2 }
+
+	nWhile [ 0 GT 5 ] nEndWhile { 4 | 2 }
+
+	nElse [ 6 LT 1 ] nEndWhile  { 6 # 3 }
+
+	nSwitch [ 4 ] nEndSwitch { nCase 1 : 4 | 2 ; nCase 2 : 3 | 2 ; nDefault : 3 ^ 2 ; }
+
+	
+}
